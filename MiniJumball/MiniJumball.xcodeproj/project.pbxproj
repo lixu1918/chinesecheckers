@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0F4034162EF9FD00341EA0 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F4032162EF9FD00341EA0 /* HelpViewController.m */; };
+		5C0F4035162EF9FD00341EA0 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F4032162EF9FD00341EA0 /* HelpViewController.m */; };
+		5C0F4036162EF9FD00341EA0 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4033162EF9FD00341EA0 /* HelpViewController.xib */; };
+		5C0F4037162EF9FD00341EA0 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4033162EF9FD00341EA0 /* HelpViewController.xib */; };
+		5C0F4051162EFC6F00341EA0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F403D162EFC6F00341EA0 /* 1.png */; };
+		5C0F4052162EFC6F00341EA0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F403D162EFC6F00341EA0 /* 1.png */; };
+		5C0F4053162EFC6F00341EA0 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F403E162EFC6F00341EA0 /* 10.png */; };
+		5C0F4054162EFC6F00341EA0 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F403E162EFC6F00341EA0 /* 10.png */; };
+		5C0F4055162EFC6F00341EA0 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F403F162EFC6F00341EA0 /* 11.png */; };
+		5C0F4056162EFC6F00341EA0 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F403F162EFC6F00341EA0 /* 11.png */; };
+		5C0F4057162EFC6F00341EA0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4040162EFC6F00341EA0 /* 2.png */; };
+		5C0F4058162EFC6F00341EA0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4040162EFC6F00341EA0 /* 2.png */; };
+		5C0F4059162EFC6F00341EA0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4041162EFC6F00341EA0 /* 3.png */; };
+		5C0F405A162EFC6F00341EA0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4041162EFC6F00341EA0 /* 3.png */; };
+		5C0F405B162EFC6F00341EA0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4042162EFC6F00341EA0 /* 4.png */; };
+		5C0F405C162EFC6F00341EA0 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4042162EFC6F00341EA0 /* 4.png */; };
+		5C0F4063162EFC6F00341EA0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4046162EFC6F00341EA0 /* 8.png */; };
+		5C0F4064162EFC6F00341EA0 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4046162EFC6F00341EA0 /* 8.png */; };
+		5C0F4065162EFC6F00341EA0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4047162EFC6F00341EA0 /* 9.png */; };
+		5C0F4066162EFC6F00341EA0 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4047162EFC6F00341EA0 /* 9.png */; };
+		5C0F4067162EFC6F00341EA0 /* first_player.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4048162EFC6F00341EA0 /* first_player.png */; };
+		5C0F4068162EFC6F00341EA0 /* first_player.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4048162EFC6F00341EA0 /* first_player.png */; };
+		5C0F4069162EFC6F00341EA0 /* game_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4049162EFC6F00341EA0 /* game_over.png */; };
+		5C0F406A162EFC6F00341EA0 /* game_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4049162EFC6F00341EA0 /* game_over.png */; };
+		5C0F406B162EFC6F00341EA0 /* long_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404A162EFC6F00341EA0 /* long_jump.png */; };
+		5C0F406C162EFC6F00341EA0 /* long_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404A162EFC6F00341EA0 /* long_jump.png */; };
+		5C0F406D162EFC6F00341EA0 /* long_long_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404B162EFC6F00341EA0 /* long_long_jump.png */; };
+		5C0F406E162EFC6F00341EA0 /* long_long_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404B162EFC6F00341EA0 /* long_long_jump.png */; };
+		5C0F406F162EFC6F00341EA0 /* new_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404C162EFC6F00341EA0 /* new_game.png */; };
+		5C0F4070162EFC6F00341EA0 /* new_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404C162EFC6F00341EA0 /* new_game.png */; };
+		5C0F4071162EFC6F00341EA0 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404D162EFC6F00341EA0 /* play.png */; };
+		5C0F4072162EFC6F00341EA0 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404D162EFC6F00341EA0 /* play.png */; };
+		5C0F4073162EFC6F00341EA0 /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404E162EFC6F00341EA0 /* robot.png */; };
+		5C0F4074162EFC6F00341EA0 /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404E162EFC6F00341EA0 /* robot.png */; };
+		5C0F4075162EFC6F00341EA0 /* roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404F162EFC6F00341EA0 /* roll.png */; };
+		5C0F4076162EFC6F00341EA0 /* roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F404F162EFC6F00341EA0 /* roll.png */; };
+		5C0F4077162EFC6F00341EA0 /* short_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4050162EFC6F00341EA0 /* short_jump.png */; };
+		5C0F4078162EFC6F00341EA0 /* short_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4050162EFC6F00341EA0 /* short_jump.png */; };
+		5C0F407A162EFCA700341EA0 /* BeginNewGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4079162EFCA700341EA0 /* BeginNewGame.xib */; };
+		5C0F407B162EFCA700341EA0 /* BeginNewGame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F4079162EFCA700341EA0 /* BeginNewGame.xib */; };
+		5C0F407D162EFCC600341EA0 /* CallUpRobots.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F407C162EFCC600341EA0 /* CallUpRobots.xib */; };
+		5C0F407E162EFCC600341EA0 /* CallUpRobots.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F407C162EFCC600341EA0 /* CallUpRobots.xib */; };
+		5C0F4080162EFCDC00341EA0 /* MoveRules.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F407F162EFCDC00341EA0 /* MoveRules.xib */; };
+		5C0F4081162EFCDC00341EA0 /* MoveRules.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F407F162EFCDC00341EA0 /* MoveRules.xib */; };
+		5C0F408C162F0B8100341EA0 /* Step1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F408B162F0B8100341EA0 /* Step1.xib */; };
+		5C0F408D162F0B8100341EA0 /* Step1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F408B162F0B8100341EA0 /* Step1.xib */; };
+		5C0F408F162F0E4E00341EA0 /* Step2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F408E162F0E4E00341EA0 /* Step2.xib */; };
+		5C0F4090162F0E4E00341EA0 /* Step2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0F408E162F0E4E00341EA0 /* Step2.xib */; };
+		5C448DA31624639200079553 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C51620214400AD860B /* UIKit.framework */; };
+		5C448DA41624639200079553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C71620214400AD860B /* Foundation.framework */; };
+		5C448DA51624639200079553 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C91620214400AD860B /* CoreGraphics.framework */; };
+		5C448DAB1624639200079553 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C448DA91624639200079553 /* InfoPlist.strings */; };
+		5C448DAD1624639200079553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C448DAC1624639200079553 /* main.m */; };
+		5C448DB11624639200079553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C448DB01624639200079553 /* AppDelegate.m */; };
+		5C448DB31624639200079553 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C448DB21624639200079553 /* Default.png */; };
+		5C448DB51624639200079553 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C448DB41624639200079553 /* Default@2x.png */; };
+		5C448DB71624639200079553 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C448DB61624639200079553 /* Default-568h@2x.png */; };
+		5C448DBA1624639200079553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C448DB91624639200079553 /* ViewController.m */; };
+		5C448DBD1624639200079553 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C448DBB1624639200079553 /* ViewController.xib */; };
+		5C448DC61624644000079553 /* JumballGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0F9801623083700813B84 /* JumballGraphics.cpp */; };
+		5CBE89A2162862F400E88411 /* ShadowLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE89A1162862F400E88411 /* ShadowLayer.mm */; };
+		5CBE89A5162864FE00E88411 /* CursorLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE89A4162864FE00E88411 /* CursorLayer.mm */; };
+		5CBE89A81628695700E88411 /* PieceLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE89A71628695700E88411 /* PieceLayer.mm */; };
+		5CC0F9811623083700813B84 /* JumballGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0F9801623083700813B84 /* JumballGraphics.cpp */; };
+		5CC0F98716230CB600813B84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC0F98616230CB600813B84 /* QuartzCore.framework */; };
+		5CC89ED8162903E900ABC84F /* JumballGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89ED2162903E800ABC84F /* JumballGame.cpp */; };
+		5CC89ED9162903E900ABC84F /* JumballPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89ED4162903E800ABC84F /* JumballPlayer.cpp */; };
+		5CC89EDA162903E900ABC84F /* JumballRobot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89ED6162903E900ABC84F /* JumballRobot.cpp */; };
+		5CC89F2D1629607B00ABC84F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C51620214400AD860B /* UIKit.framework */; };
+		5CC89F2E1629607B00ABC84F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C71620214400AD860B /* Foundation.framework */; };
+		5CC89F2F1629607B00ABC84F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C91620214400AD860B /* CoreGraphics.framework */; };
+		5CC89F351629607B00ABC84F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC89F331629607B00ABC84F /* InfoPlist.strings */; };
+		5CC89F371629607B00ABC84F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89F361629607B00ABC84F /* main.m */; };
+		5CC89F3B1629607B00ABC84F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89F3A1629607B00ABC84F /* AppDelegate.mm */; };
+		5CC89F3D1629607B00ABC84F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC89F3C1629607B00ABC84F /* Default.png */; };
+		5CC89F3F1629607B00ABC84F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC89F3E1629607B00ABC84F /* Default@2x.png */; };
+		5CC89F411629607B00ABC84F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CC89F401629607B00ABC84F /* Default-568h@2x.png */; };
+		5CC89F53162960F100ABC84F /* mini57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CCA39B616270203009C0470 /* mini57x57.png */; };
+		5CC89F55162960FD00ABC84F /* mini114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CCA39B816270209009C0470 /* mini114x114.png */; };
+		5CC89F561629614300ABC84F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D4E01620214400AD860B /* ViewController.xib */; };
+		5CC89F571629616700ABC84F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8D4DE1620214400AD860B /* ViewController.mm */; };
+		5CC89F581629619500ABC84F /* JumballView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA39C016270581009C0470 /* JumballView.mm */; };
+		5CC89F591629619500ABC84F /* ShadowLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE89A1162862F400E88411 /* ShadowLayer.mm */; };
+		5CC89F5A1629619500ABC84F /* CursorLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE89A4162864FE00E88411 /* CursorLayer.mm */; };
+		5CC89F5B1629619500ABC84F /* PieceLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CBE89A71628695700E88411 /* PieceLayer.mm */; };
+		5CC89F5C1629619500ABC84F /* JumballGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC0F9801623083700813B84 /* JumballGraphics.cpp */; };
+		5CC89F5D1629619500ABC84F /* JumballGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89ED2162903E800ABC84F /* JumballGame.cpp */; };
+		5CC89F5E1629619500ABC84F /* JumballPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89ED4162903E800ABC84F /* JumballPlayer.cpp */; };
+		5CC89F5F1629619500ABC84F /* JumballRobot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CC89ED6162903E900ABC84F /* JumballRobot.cpp */; };
+		5CC89F601629619500ABC84F /* JumballEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8D4EC1620250600AD860B /* JumballEngine.cpp */; };
+		5CC89F61162961AA00ABC84F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC0F98616230CB600813B84 /* QuartzCore.framework */; };
+		5CCA2441162AE5DE006CA76C /* MiniJumballStick.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2440162AE5DE006CA76C /* MiniJumballStick.mm */; };
+		5CCA2443162AEA8E006CA76C /* MiniJumballStick.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2440162AE5DE006CA76C /* MiniJumballStick.mm */; };
+		5CCA39B01626FF40009C0470 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CCA39AF1626FF40009C0470 /* 57x57.png */; };
+		5CCA39B31626FF47009C0470 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CCA39B21626FF47009C0470 /* 114x114.png */; };
+		5CCA39C116270581009C0470 /* JumballView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA39C016270581009C0470 /* JumballView.mm */; };
+		5CCB575E162C53140090E710 /* RobotLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB575D162C53140090E710 /* RobotLayer.mm */; };
+		5CCB575F162C62F10090E710 /* RobotLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CCB575D162C53140090E710 /* RobotLayer.mm */; };
+		5CD8D4C61620214400AD860B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C51620214400AD860B /* UIKit.framework */; };
+		5CD8D4C81620214400AD860B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C71620214400AD860B /* Foundation.framework */; };
+		5CD8D4CA1620214400AD860B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD8D4C91620214400AD860B /* CoreGraphics.framework */; };
+		5CD8D4D01620214400AD860B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D4CE1620214400AD860B /* InfoPlist.strings */; };
+		5CD8D4D21620214400AD860B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8D4D11620214400AD860B /* main.m */; };
+		5CD8D4D61620214400AD860B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8D4D51620214400AD860B /* AppDelegate.mm */; };
+		5CD8D4D81620214400AD860B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D4D71620214400AD860B /* Default.png */; };
+		5CD8D4DA1620214400AD860B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D4D91620214400AD860B /* Default@2x.png */; };
+		5CD8D4DC1620214400AD860B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D4DB1620214400AD860B /* Default-568h@2x.png */; };
+		5CD8D4DF1620214400AD860B /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8D4DE1620214400AD860B /* ViewController.mm */; };
+		5CD8D4E21620214400AD860B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CD8D4E01620214400AD860B /* ViewController.xib */; };
+		5CD8D4ED1620250600AD860B /* JumballEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8D4EC1620250600AD860B /* JumballEngine.cpp */; };
+		5CE72084163032760040C9DD /* Step3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE72083163032760040C9DD /* Step3.xib */; };
+		5CE72085163032760040C9DD /* Step3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CE72083163032760040C9DD /* Step3.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C0F4031162EF9FD00341EA0 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		5C0F4032162EF9FD00341EA0 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		5C0F4033162EF9FD00341EA0 /* HelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		5C0F403D162EFC6F00341EA0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		5C0F403E162EFC6F00341EA0 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		5C0F403F162EFC6F00341EA0 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		5C0F4040162EFC6F00341EA0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		5C0F4041162EFC6F00341EA0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		5C0F4042162EFC6F00341EA0 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		5C0F4046162EFC6F00341EA0 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		5C0F4047162EFC6F00341EA0 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		5C0F4048162EFC6F00341EA0 /* first_player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_player.png; sourceTree = "<group>"; };
+		5C0F4049162EFC6F00341EA0 /* game_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game_over.png; sourceTree = "<group>"; };
+		5C0F404A162EFC6F00341EA0 /* long_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = long_jump.png; sourceTree = "<group>"; };
+		5C0F404B162EFC6F00341EA0 /* long_long_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = long_long_jump.png; sourceTree = "<group>"; };
+		5C0F404C162EFC6F00341EA0 /* new_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new_game.png; sourceTree = "<group>"; };
+		5C0F404D162EFC6F00341EA0 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		5C0F404E162EFC6F00341EA0 /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = robot.png; sourceTree = "<group>"; };
+		5C0F404F162EFC6F00341EA0 /* roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roll.png; sourceTree = "<group>"; };
+		5C0F4050162EFC6F00341EA0 /* short_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = short_jump.png; sourceTree = "<group>"; };
+		5C0F4079162EFCA700341EA0 /* BeginNewGame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeginNewGame.xib; sourceTree = "<group>"; };
+		5C0F407C162EFCC600341EA0 /* CallUpRobots.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallUpRobots.xib; sourceTree = "<group>"; };
+		5C0F407F162EFCDC00341EA0 /* MoveRules.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoveRules.xib; sourceTree = "<group>"; };
+		5C0F408B162F0B8100341EA0 /* Step1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Step1.xib; sourceTree = "<group>"; };
+		5C0F408E162F0E4E00341EA0 /* Step2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Step2.xib; sourceTree = "<group>"; };
+		5C448DA11624639200079553 /* PaintIcons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintIcons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C448DA81624639200079553 /* PaintIcons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaintIcons-Info.plist"; sourceTree = "<group>"; };
+		5C448DAA1624639200079553 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C448DAC1624639200079553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C448DAE1624639200079553 /* PaintIcons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaintIcons-Prefix.pch"; sourceTree = "<group>"; };
+		5C448DAF1624639200079553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C448DB01624639200079553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C448DB21624639200079553 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C448DB41624639200079553 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C448DB61624639200079553 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5C448DB81624639200079553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C448DB91624639200079553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C448DBC1624639200079553 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5C5273ED162DB28C00E4A2B8 /* ModifiedSquareDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifiedSquareDistance.h; sourceTree = "<group>"; };
+		5CBE89A0162862F400E88411 /* ShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowLayer.h; sourceTree = "<group>"; };
+		5CBE89A1162862F400E88411 /* ShadowLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShadowLayer.mm; sourceTree = "<group>"; };
+		5CBE89A3162864FE00E88411 /* CursorLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CursorLayer.h; sourceTree = "<group>"; };
+		5CBE89A4162864FE00E88411 /* CursorLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CursorLayer.mm; sourceTree = "<group>"; };
+		5CBE89A61628695700E88411 /* PieceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieceLayer.h; sourceTree = "<group>"; };
+		5CBE89A71628695700E88411 /* PieceLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PieceLayer.mm; sourceTree = "<group>"; };
+		5CC0F97F1623082200813B84 /* JumballGraphics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumballGraphics.h; sourceTree = "<group>"; };
+		5CC0F9801623083700813B84 /* JumballGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumballGraphics.cpp; sourceTree = "<group>"; };
+		5CC0F98616230CB600813B84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5CC89ED2162903E800ABC84F /* JumballGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumballGame.cpp; sourceTree = "<group>"; };
+		5CC89ED3162903E800ABC84F /* JumballGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumballGame.h; sourceTree = "<group>"; };
+		5CC89ED4162903E800ABC84F /* JumballPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumballPlayer.cpp; sourceTree = "<group>"; };
+		5CC89ED5162903E800ABC84F /* JumballPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumballPlayer.h; sourceTree = "<group>"; };
+		5CC89ED6162903E900ABC84F /* JumballRobot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumballRobot.cpp; sourceTree = "<group>"; };
+		5CC89ED7162903E900ABC84F /* JumballRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumballRobot.h; sourceTree = "<group>"; };
+		5CC89F2B1629607B00ABC84F /* MiniJumball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniJumball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC89F321629607B00ABC84F /* MiniJumball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiniJumball-Info.plist"; sourceTree = "<group>"; };
+		5CC89F341629607B00ABC84F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC89F361629607B00ABC84F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC89F381629607B00ABC84F /* MiniJumball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiniJumball-Prefix.pch"; sourceTree = "<group>"; };
+		5CC89F391629607B00ABC84F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CC89F3A1629607B00ABC84F /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		5CC89F3C1629607B00ABC84F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5CC89F3E1629607B00ABC84F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5CC89F401629607B00ABC84F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5CCA243F162AE5DE006CA76C /* MiniJumballStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniJumballStick.h; sourceTree = "<group>"; };
+		5CCA2440162AE5DE006CA76C /* MiniJumballStick.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MiniJumballStick.mm; sourceTree = "<group>"; };
+		5CCA39AF1626FF40009C0470 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		5CCA39B21626FF47009C0470 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		5CCA39B616270203009C0470 /* mini57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mini57x57.png; sourceTree = "<group>"; };
+		5CCA39B816270209009C0470 /* mini114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mini114x114.png; sourceTree = "<group>"; };
+		5CCA39BF16270581009C0470 /* JumballView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumballView.h; sourceTree = "<group>"; };
+		5CCA39C016270581009C0470 /* JumballView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JumballView.mm; sourceTree = "<group>"; };
+		5CCB5759162C507B0090E710 /* RobotLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotLayer.h; sourceTree = "<group>"; };
+		5CCB575D162C53140090E710 /* RobotLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RobotLayer.mm; sourceTree = "<group>"; };
+		5CD8D4C11620214400AD860B /* Jumball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jumball.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD8D4C51620214400AD860B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CD8D4C71620214400AD860B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CD8D4C91620214400AD860B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CD8D4CD1620214400AD860B /* Jumball-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jumball-Info.plist"; sourceTree = "<group>"; };
+		5CD8D4CF1620214400AD860B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CD8D4D11620214400AD860B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD8D4D31620214400AD860B /* Jumball-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jumball-Prefix.pch"; sourceTree = "<group>"; };
+		5CD8D4D41620214400AD860B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CD8D4D51620214400AD860B /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		5CD8D4D71620214400AD860B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5CD8D4D91620214400AD860B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5CD8D4DB1620214400AD860B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5CD8D4DD1620214400AD860B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CD8D4DE1620214400AD860B /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		5CD8D4E11620214400AD860B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5CD8D4EB162024C000AD860B /* JumballEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumballEngine.h; sourceTree = "<group>"; };
+		5CD8D4EC1620250600AD860B /* JumballEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumballEngine.cpp; sourceTree = "<group>"; };
+		5CD8D51216204CAE00AD860B /* JumballData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumballData.h; sourceTree = "<group>"; };
+		5CE72083163032760040C9DD /* Step3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Step3.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C448D9E1624639200079553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C448DA31624639200079553 /* UIKit.framework in Frameworks */,
+				5C448DA41624639200079553 /* Foundation.framework in Frameworks */,
+				5C448DA51624639200079553 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC89F281629607B00ABC84F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC89F61162961AA00ABC84F /* QuartzCore.framework in Frameworks */,
+				5CC89F2D1629607B00ABC84F /* UIKit.framework in Frameworks */,
+				5CC89F2E1629607B00ABC84F /* Foundation.framework in Frameworks */,
+				5CC89F2F1629607B00ABC84F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD8D4BE1620214400AD860B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC0F98716230CB600813B84 /* QuartzCore.framework in Frameworks */,
+				5CD8D4C61620214400AD860B /* UIKit.framework in Frameworks */,
+				5CD8D4C81620214400AD860B /* Foundation.framework in Frameworks */,
+				5CD8D4CA1620214400AD860B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0F403C162EFC6F00341EA0 /* HelpImages */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F403D162EFC6F00341EA0 /* 1.png */,
+				5C0F403E162EFC6F00341EA0 /* 10.png */,
+				5C0F403F162EFC6F00341EA0 /* 11.png */,
+				5C0F4040162EFC6F00341EA0 /* 2.png */,
+				5C0F4041162EFC6F00341EA0 /* 3.png */,
+				5C0F4042162EFC6F00341EA0 /* 4.png */,
+				5C0F4046162EFC6F00341EA0 /* 8.png */,
+				5C0F4047162EFC6F00341EA0 /* 9.png */,
+				5C0F4048162EFC6F00341EA0 /* first_player.png */,
+				5C0F4049162EFC6F00341EA0 /* game_over.png */,
+				5C0F404A162EFC6F00341EA0 /* long_jump.png */,
+				5C0F404B162EFC6F00341EA0 /* long_long_jump.png */,
+				5C0F404C162EFC6F00341EA0 /* new_game.png */,
+				5C0F404D162EFC6F00341EA0 /* play.png */,
+				5C0F404E162EFC6F00341EA0 /* robot.png */,
+				5C0F404F162EFC6F00341EA0 /* roll.png */,
+				5C0F4050162EFC6F00341EA0 /* short_jump.png */,
+			);
+			path = HelpImages;
+			sourceTree = "<group>";
+		};
+		5C448DA61624639200079553 /* PaintIcons */ = {
+			isa = PBXGroup;
+			children = (
+				5C448DAF1624639200079553 /* AppDelegate.h */,
+				5C448DB01624639200079553 /* AppDelegate.m */,
+				5C448DB81624639200079553 /* ViewController.h */,
+				5C448DB91624639200079553 /* ViewController.m */,
+				5C448DBB1624639200079553 /* ViewController.xib */,
+				5C448DA71624639200079553 /* Supporting Files */,
+			);
+			path = PaintIcons;
+			sourceTree = "<group>";
+		};
+		5C448DA71624639200079553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C448DA81624639200079553 /* PaintIcons-Info.plist */,
+				5C448DA91624639200079553 /* InfoPlist.strings */,
+				5C448DAC1624639200079553 /* main.m */,
+				5C448DAE1624639200079553 /* PaintIcons-Prefix.pch */,
+				5C448DB21624639200079553 /* Default.png */,
+				5C448DB41624639200079553 /* Default@2x.png */,
+				5C448DB61624639200079553 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC0F97E162307FA00813B84 /* JumballGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5CC0F97F1623082200813B84 /* JumballGraphics.h */,
+				5CC0F9801623083700813B84 /* JumballGraphics.cpp */,
+			);
+			path = JumballGraphics;
+			sourceTree = "<group>";
+		};
+		5CC89F301629607B00ABC84F /* MiniJumball */ = {
+			isa = PBXGroup;
+			children = (
+				5CC89F391629607B00ABC84F /* AppDelegate.h */,
+				5CC89F3A1629607B00ABC84F /* AppDelegate.mm */,
+				5CC89F311629607B00ABC84F /* Supporting Files */,
+			);
+			path = MiniJumball;
+			sourceTree = "<group>";
+		};
+		5CC89F311629607B00ABC84F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC89F321629607B00ABC84F /* MiniJumball-Info.plist */,
+				5CC89F331629607B00ABC84F /* InfoPlist.strings */,
+				5CC89F361629607B00ABC84F /* main.m */,
+				5CC89F381629607B00ABC84F /* MiniJumball-Prefix.pch */,
+				5CC89F3C1629607B00ABC84F /* Default.png */,
+				5CC89F3E1629607B00ABC84F /* Default@2x.png */,
+				5CC89F401629607B00ABC84F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCA39BE1627054C009C0470 /* JumballView */ = {
+			isa = PBXGroup;
+			children = (
+				5CCB5759162C507B0090E710 /* RobotLayer.h */,
+				5CCB575D162C53140090E710 /* RobotLayer.mm */,
+				5CCA243F162AE5DE006CA76C /* MiniJumballStick.h */,
+				5CCA2440162AE5DE006CA76C /* MiniJumballStick.mm */,
+				5CCA39BF16270581009C0470 /* JumballView.h */,
+				5CCA39C016270581009C0470 /* JumballView.mm */,
+				5CBE89A0162862F400E88411 /* ShadowLayer.h */,
+				5CBE89A1162862F400E88411 /* ShadowLayer.mm */,
+				5CBE89A3162864FE00E88411 /* CursorLayer.h */,
+				5CBE89A4162864FE00E88411 /* CursorLayer.mm */,
+				5CBE89A61628695700E88411 /* PieceLayer.h */,
+				5CBE89A71628695700E88411 /* PieceLayer.mm */,
+			);
+			name = JumballView;
+			sourceTree = "<group>";
+		};
+		5CD8D4B61620214400AD860B = {
+			isa = PBXGroup;
+			children = (
+				5CCA39B816270209009C0470 /* mini114x114.png */,
+				5CCA39B616270203009C0470 /* mini57x57.png */,
+				5CCA39B21626FF47009C0470 /* 114x114.png */,
+				5CCA39AF1626FF40009C0470 /* 57x57.png */,
+				5CC0F98616230CB600813B84 /* QuartzCore.framework */,
+				5CC89F301629607B00ABC84F /* MiniJumball */,
+				5CD8D4CB1620214400AD860B /* Jumball */,
+				5C448DA61624639200079553 /* PaintIcons */,
+				5CD8D4C41620214400AD860B /* Frameworks */,
+				5CD8D4C21620214400AD860B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD8D4C21620214400AD860B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8D4C11620214400AD860B /* Jumball.app */,
+				5C448DA11624639200079553 /* PaintIcons.app */,
+				5CC89F2B1629607B00ABC84F /* MiniJumball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD8D4C41620214400AD860B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8D4C51620214400AD860B /* UIKit.framework */,
+				5CD8D4C71620214400AD860B /* Foundation.framework */,
+				5CD8D4C91620214400AD860B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CD8D4CB1620214400AD860B /* Jumball */ = {
+			isa = PBXGroup;
+			children = (
+				5C0F403C162EFC6F00341EA0 /* HelpImages */,
+				5CCA39BE1627054C009C0470 /* JumballView */,
+				5CC0F97E162307FA00813B84 /* JumballGraphics */,
+				5CD8D4EA1620242C00AD860B /* JumballEngine */,
+				5CD8D4D41620214400AD860B /* AppDelegate.h */,
+				5CD8D4D51620214400AD860B /* AppDelegate.mm */,
+				5CD8D4DD1620214400AD860B /* ViewController.h */,
+				5CD8D4DE1620214400AD860B /* ViewController.mm */,
+				5CD8D4E01620214400AD860B /* ViewController.xib */,
+				5CD8D4CC1620214400AD860B /* Supporting Files */,
+				5C0F4031162EF9FD00341EA0 /* HelpViewController.h */,
+				5C0F4032162EF9FD00341EA0 /* HelpViewController.m */,
+				5C0F4033162EF9FD00341EA0 /* HelpViewController.xib */,
+				5C0F4079162EFCA700341EA0 /* BeginNewGame.xib */,
+				5C0F407C162EFCC600341EA0 /* CallUpRobots.xib */,
+				5C0F407F162EFCDC00341EA0 /* MoveRules.xib */,
+				5C0F408B162F0B8100341EA0 /* Step1.xib */,
+				5C0F408E162F0E4E00341EA0 /* Step2.xib */,
+				5CE72083163032760040C9DD /* Step3.xib */,
+			);
+			path = Jumball;
+			sourceTree = "<group>";
+		};
+		5CD8D4CC1620214400AD860B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8D4CD1620214400AD860B /* Jumball-Info.plist */,
+				5CD8D4CE1620214400AD860B /* InfoPlist.strings */,
+				5CD8D4D11620214400AD860B /* main.m */,
+				5CD8D4D31620214400AD860B /* Jumball-Prefix.pch */,
+				5CD8D4D71620214400AD860B /* Default.png */,
+				5CD8D4D91620214400AD860B /* Default@2x.png */,
+				5CD8D4DB1620214400AD860B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CD8D4EA1620242C00AD860B /* JumballEngine */ = {
+			isa = PBXGroup;
+			children = (
+				5CC89ED2162903E800ABC84F /* JumballGame.cpp */,
+				5CC89ED3162903E800ABC84F /* JumballGame.h */,
+				5CC89ED4162903E800ABC84F /* JumballPlayer.cpp */,
+				5CC89ED5162903E800ABC84F /* JumballPlayer.h */,
+				5CC89ED6162903E900ABC84F /* JumballRobot.cpp */,
+				5CC89ED7162903E900ABC84F /* JumballRobot.h */,
+				5CD8D4EB162024C000AD860B /* JumballEngine.h */,
+				5CD8D4EC1620250600AD860B /* JumballEngine.cpp */,
+				5CD8D51216204CAE00AD860B /* JumballData.h */,
+				5C5273ED162DB28C00E4A2B8 /* ModifiedSquareDistance.h */,
+			);
+			path = JumballEngine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C448DA01624639200079553 /* PaintIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C448DC01624639200079553 /* Build configuration list for PBXNativeTarget "PaintIcons" */;
+			buildPhases = (
+				5C448D9D1624639200079553 /* Sources */,
+				5C448D9E1624639200079553 /* Frameworks */,
+				5C448D9F1624639200079553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintIcons;
+			productName = PaintIcons;
+			productReference = 5C448DA11624639200079553 /* PaintIcons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC89F2A1629607B00ABC84F /* MiniJumball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC89F4A1629607B00ABC84F /* Build configuration list for PBXNativeTarget "MiniJumball" */;
+			buildPhases = (
+				5CC89F271629607B00ABC84F /* Sources */,
+				5CC89F281629607B00ABC84F /* Frameworks */,
+				5CC89F291629607B00ABC84F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniJumball;
+			productName = MiniJumball;
+			productReference = 5CC89F2B1629607B00ABC84F /* MiniJumball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CD8D4C01620214400AD860B /* Jumball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD8D4E51620214400AD860B /* Build configuration list for PBXNativeTarget "Jumball" */;
+			buildPhases = (
+				5CD8D4BD1620214400AD860B /* Sources */,
+				5CD8D4BE1620214400AD860B /* Frameworks */,
+				5CD8D4BF1620214400AD860B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jumball;
+			productName = Jumball;
+			productReference = 5CD8D4C11620214400AD860B /* Jumball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD8D4B81620214400AD860B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Li Xu";
+				TargetAttributes = {
+					5CC89F2A1629607B00ABC84F = {
+						DevelopmentTeam = KQ4ZUWUQAF;
+					};
+					5CD8D4C01620214400AD860B = {
+						DevelopmentTeam = KQ4ZUWUQAF;
+					};
+				};
+			};
+			buildConfigurationList = 5CD8D4BB1620214400AD860B /* Build configuration list for PBXProject "MiniJumball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CD8D4B61620214400AD860B;
+			productRefGroup = 5CD8D4C21620214400AD860B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD8D4C01620214400AD860B /* Jumball */,
+				5C448DA01624639200079553 /* PaintIcons */,
+				5CC89F2A1629607B00ABC84F /* MiniJumball */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C448D9F1624639200079553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C448DAB1624639200079553 /* InfoPlist.strings in Resources */,
+				5C448DB31624639200079553 /* Default.png in Resources */,
+				5C448DB51624639200079553 /* Default@2x.png in Resources */,
+				5C448DB71624639200079553 /* Default-568h@2x.png in Resources */,
+				5C448DBD1624639200079553 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC89F291629607B00ABC84F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC89F561629614300ABC84F /* ViewController.xib in Resources */,
+				5CC89F351629607B00ABC84F /* InfoPlist.strings in Resources */,
+				5CC89F3D1629607B00ABC84F /* Default.png in Resources */,
+				5CC89F3F1629607B00ABC84F /* Default@2x.png in Resources */,
+				5CC89F411629607B00ABC84F /* Default-568h@2x.png in Resources */,
+				5CC89F53162960F100ABC84F /* mini57x57.png in Resources */,
+				5CC89F55162960FD00ABC84F /* mini114x114.png in Resources */,
+				5C0F4037162EF9FD00341EA0 /* HelpViewController.xib in Resources */,
+				5C0F4052162EFC6F00341EA0 /* 1.png in Resources */,
+				5C0F4054162EFC6F00341EA0 /* 10.png in Resources */,
+				5C0F4056162EFC6F00341EA0 /* 11.png in Resources */,
+				5C0F4058162EFC6F00341EA0 /* 2.png in Resources */,
+				5C0F405A162EFC6F00341EA0 /* 3.png in Resources */,
+				5C0F405C162EFC6F00341EA0 /* 4.png in Resources */,
+				5C0F4064162EFC6F00341EA0 /* 8.png in Resources */,
+				5C0F4066162EFC6F00341EA0 /* 9.png in Resources */,
+				5C0F4068162EFC6F00341EA0 /* first_player.png in Resources */,
+				5C0F406A162EFC6F00341EA0 /* game_over.png in Resources */,
+				5C0F406C162EFC6F00341EA0 /* long_jump.png in Resources */,
+				5C0F406E162EFC6F00341EA0 /* long_long_jump.png in Resources */,
+				5C0F4070162EFC6F00341EA0 /* new_game.png in Resources */,
+				5C0F4072162EFC6F00341EA0 /* play.png in Resources */,
+				5C0F4074162EFC6F00341EA0 /* robot.png in Resources */,
+				5C0F4076162EFC6F00341EA0 /* roll.png in Resources */,
+				5C0F4078162EFC6F00341EA0 /* short_jump.png in Resources */,
+				5C0F407B162EFCA700341EA0 /* BeginNewGame.xib in Resources */,
+				5C0F407E162EFCC600341EA0 /* CallUpRobots.xib in Resources */,
+				5C0F4081162EFCDC00341EA0 /* MoveRules.xib in Resources */,
+				5C0F408D162F0B8100341EA0 /* Step1.xib in Resources */,
+				5C0F4090162F0E4E00341EA0 /* Step2.xib in Resources */,
+				5CE72085163032760040C9DD /* Step3.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD8D4BF1620214400AD860B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD8D4D01620214400AD860B /* InfoPlist.strings in Resources */,
+				5CD8D4D81620214400AD860B /* Default.png in Resources */,
+				5CD8D4DA1620214400AD860B /* Default@2x.png in Resources */,
+				5CD8D4DC1620214400AD860B /* Default-568h@2x.png in Resources */,
+				5CD8D4E21620214400AD860B /* ViewController.xib in Resources */,
+				5CCA39B01626FF40009C0470 /* 57x57.png in Resources */,
+				5CCA39B31626FF47009C0470 /* 114x114.png in Resources */,
+				5C0F4036162EF9FD00341EA0 /* HelpViewController.xib in Resources */,
+				5C0F4051162EFC6F00341EA0 /* 1.png in Resources */,
+				5C0F4053162EFC6F00341EA0 /* 10.png in Resources */,
+				5C0F4055162EFC6F00341EA0 /* 11.png in Resources */,
+				5C0F4057162EFC6F00341EA0 /* 2.png in Resources */,
+				5C0F4059162EFC6F00341EA0 /* 3.png in Resources */,
+				5C0F405B162EFC6F00341EA0 /* 4.png in Resources */,
+				5C0F4063162EFC6F00341EA0 /* 8.png in Resources */,
+				5C0F4065162EFC6F00341EA0 /* 9.png in Resources */,
+				5C0F4067162EFC6F00341EA0 /* first_player.png in Resources */,
+				5C0F4069162EFC6F00341EA0 /* game_over.png in Resources */,
+				5C0F406B162EFC6F00341EA0 /* long_jump.png in Resources */,
+				5C0F406D162EFC6F00341EA0 /* long_long_jump.png in Resources */,
+				5C0F406F162EFC6F00341EA0 /* new_game.png in Resources */,
+				5C0F4071162EFC6F00341EA0 /* play.png in Resources */,
+				5C0F4073162EFC6F00341EA0 /* robot.png in Resources */,
+				5C0F4075162EFC6F00341EA0 /* roll.png in Resources */,
+				5C0F4077162EFC6F00341EA0 /* short_jump.png in Resources */,
+				5C0F407A162EFCA700341EA0 /* BeginNewGame.xib in Resources */,
+				5C0F407D162EFCC600341EA0 /* CallUpRobots.xib in Resources */,
+				5C0F4080162EFCDC00341EA0 /* MoveRules.xib in Resources */,
+				5C0F408C162F0B8100341EA0 /* Step1.xib in Resources */,
+				5C0F408F162F0E4E00341EA0 /* Step2.xib in Resources */,
+				5CE72084163032760040C9DD /* Step3.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C448D9D1624639200079553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C448DC61624644000079553 /* JumballGraphics.cpp in Sources */,
+				5C448DAD1624639200079553 /* main.m in Sources */,
+				5C448DB11624639200079553 /* AppDelegate.m in Sources */,
+				5C448DBA1624639200079553 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC89F271629607B00ABC84F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCB575F162C62F10090E710 /* RobotLayer.mm in Sources */,
+				5CCA2443162AEA8E006CA76C /* MiniJumballStick.mm in Sources */,
+				5CC89F581629619500ABC84F /* JumballView.mm in Sources */,
+				5CC89F591629619500ABC84F /* ShadowLayer.mm in Sources */,
+				5CC89F5A1629619500ABC84F /* CursorLayer.mm in Sources */,
+				5CC89F5B1629619500ABC84F /* PieceLayer.mm in Sources */,
+				5CC89F5C1629619500ABC84F /* JumballGraphics.cpp in Sources */,
+				5CC89F5D1629619500ABC84F /* JumballGame.cpp in Sources */,
+				5CC89F5E1629619500ABC84F /* JumballPlayer.cpp in Sources */,
+				5CC89F5F1629619500ABC84F /* JumballRobot.cpp in Sources */,
+				5CC89F601629619500ABC84F /* JumballEngine.cpp in Sources */,
+				5CC89F571629616700ABC84F /* ViewController.mm in Sources */,
+				5CC89F371629607B00ABC84F /* main.m in Sources */,
+				5CC89F3B1629607B00ABC84F /* AppDelegate.mm in Sources */,
+				5C0F4035162EF9FD00341EA0 /* HelpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD8D4BD1620214400AD860B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD8D4D21620214400AD860B /* main.m in Sources */,
+				5CD8D4D61620214400AD860B /* AppDelegate.mm in Sources */,
+				5CD8D4DF1620214400AD860B /* ViewController.mm in Sources */,
+				5CD8D4ED1620250600AD860B /* JumballEngine.cpp in Sources */,
+				5CC0F9811623083700813B84 /* JumballGraphics.cpp in Sources */,
+				5CCA39C116270581009C0470 /* JumballView.mm in Sources */,
+				5CBE89A2162862F400E88411 /* ShadowLayer.mm in Sources */,
+				5CBE89A5162864FE00E88411 /* CursorLayer.mm in Sources */,
+				5CBE89A81628695700E88411 /* PieceLayer.mm in Sources */,
+				5CC89ED8162903E900ABC84F /* JumballGame.cpp in Sources */,
+				5CC89ED9162903E900ABC84F /* JumballPlayer.cpp in Sources */,
+				5CC89EDA162903E900ABC84F /* JumballRobot.cpp in Sources */,
+				5CCA2441162AE5DE006CA76C /* MiniJumballStick.mm in Sources */,
+				5CCB575E162C53140090E710 /* RobotLayer.mm in Sources */,
+				5C0F4034162EF9FD00341EA0 /* HelpViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C448DA91624639200079553 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C448DAA1624639200079553 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C448DBB1624639200079553 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C448DBC1624639200079553 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		5CC89F331629607B00ABC84F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC89F341629607B00ABC84F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CD8D4CE1620214400AD860B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD8D4CF1620214400AD860B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CD8D4E01620214400AD860B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD8D4E11620214400AD860B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C448DBE1624639200079553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintIcons/PaintIcons-Prefix.pch";
+				INFOPLIST_FILE = "PaintIcons/PaintIcons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C448DBF1624639200079553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintIcons/PaintIcons-Prefix.pch";
+				INFOPLIST_FILE = "PaintIcons/PaintIcons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CC89F481629607B00ABC84F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniJumball/MiniJumball-Prefix.pch";
+				INFOPLIST_FILE = "MiniJumball/MiniJumball-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CC89F491629607B00ABC84F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniJumball/MiniJumball-Prefix.pch";
+				INFOPLIST_FILE = "MiniJumball/MiniJumball-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CD8D4E31620214400AD860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CD8D4E41620214400AD860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD8D4E61620214400AD860B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Xu (N8HTCC6RZB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Xu (N8HTCC6RZB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jumball/Jumball-Prefix.pch";
+				INFOPLIST_FILE = "Jumball/Jumball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5101F65B-D021-49DF-80D7-30B83AC9CA47";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CD8D4E71620214400AD860B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Xu (N8HTCC6RZB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Xu (N8HTCC6RZB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jumball/Jumball-Prefix.pch";
+				INFOPLIST_FILE = "Jumball/Jumball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5101F65B-D021-49DF-80D7-30B83AC9CA47";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CE7208716304F270040C9DD /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribute;
+		};
+		5CE7208816304F270040C9DD /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Li Xu (N8HTCC6RZB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Li Xu (N8HTCC6RZB)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jumball/Jumball-Prefix.pch";
+				INFOPLIST_FILE = "Jumball/Jumball-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5101F65B-D021-49DF-80D7-30B83AC9CA47";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribute;
+		};
+		5CE7208916304F270040C9DD /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaintIcons/PaintIcons-Prefix.pch";
+				INFOPLIST_FILE = "PaintIcons/PaintIcons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribute;
+		};
+		5CE7208A16304F270040C9DD /* Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiniJumball/MiniJumball-Prefix.pch";
+				INFOPLIST_FILE = "MiniJumball/MiniJumball-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FFE7E060-5F3F-4E12-ACC2-FDA8CE0ADCD1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribute;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C448DC01624639200079553 /* Build configuration list for PBXNativeTarget "PaintIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C448DBE1624639200079553 /* Debug */,
+				5C448DBF1624639200079553 /* Release */,
+				5CE7208916304F270040C9DD /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC89F4A1629607B00ABC84F /* Build configuration list for PBXNativeTarget "MiniJumball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC89F481629607B00ABC84F /* Debug */,
+				5CC89F491629607B00ABC84F /* Release */,
+				5CE7208A16304F270040C9DD /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD8D4BB1620214400AD860B /* Build configuration list for PBXProject "MiniJumball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD8D4E31620214400AD860B /* Debug */,
+				5CD8D4E41620214400AD860B /* Release */,
+				5CE7208716304F270040C9DD /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD8D4E51620214400AD860B /* Build configuration list for PBXNativeTarget "Jumball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD8D4E61620214400AD860B /* Debug */,
+				5CD8D4E71620214400AD860B /* Release */,
+				5CE7208816304F270040C9DD /* Distribute */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD8D4B81620214400AD860B /* Project object */;
+}
